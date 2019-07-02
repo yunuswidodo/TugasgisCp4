@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ping2"
+    android:gravity="center"
+    android:padding="10dp">
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/myPict"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:src="@drawable/lukman"></de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:background="@drawable/capsule"
+        android:layout_marginBottom="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Lukman Hakim"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+    <TextView
+        android:background="@drawable/capsule"
+        android:layout_marginBottom="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="04316045"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:background="@drawable/capsule"
+        android:layout_marginBottom="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Content Writer"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+
+</LinearLayout>
